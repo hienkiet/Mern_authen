@@ -1,0 +1,24 @@
+.admin-bar {
+  position: sticky;
+  top: 0;
+}
+
+.piechart-wrap {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piechart-wrap canvas {
+  width: 50% !important;
+  height: 50% !important;
+}
+
+@media (max-width: 1024px) {
+  .piechart-wrap canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
